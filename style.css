@@ -38,3 +38,6 @@ YUKARIDAKİ KODLARI DEĞİŞTİRMEMELİSİNİZ.
 BURADAN AŞAĞIYA ÇÖZÜMÜNÜZÜ YAZABİLİRSİNİZ.
 -------------------------------------------
 */
+ul.task-1-list li span {
+  color: inherit !important;
+}
