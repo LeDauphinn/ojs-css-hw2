@@ -10,7 +10,8 @@ body {
   color: #f4eee0;
 }
 
-ul li:not(:last-child), ol li:not(:last-child) {
+ul li:not(:last-child),
+ol li:not(:last-child) {
   margin-bottom: 5px;
 }
 
@@ -38,6 +39,40 @@ YUKARIDAKİ KODLARI DEĞİŞTİRMEMELİSİNİZ.
 BURADAN AŞAĞIYA ÇÖZÜMÜNÜZÜ YAZABİLİRSİNİZ.
 -------------------------------------------
 */
-ul.task-1-list li span {
+* {
+  box-sizing: border-box;
+}
+
+ul.task-1-list li#third-item span {
   color: inherit !important;
 }
+
+.common {
+  background-color: #f4eee0;
+  border: 3px solid cyan;
+  padding: 1.5rem 1.5rem 1.5rem 2rem;
+  border-radius: 25px;
+}
+
+.top-container {
+  margin-bottom: 50px;
+  width: 600px;
+  height: 400px;
+}
+
+.bottom-container {
+  width: 30%;
+  height: 300px;
+}
+
+.inner-div-1 {
+  background-color: #e1cda3;
+  width: 100%;
+  height: 100%;
+}
+
+/* .inner-div-2 {
+  background-color: #e1cda3;
+  width: 100%;
+  height: 100%;
+} duplicate code!!*/
